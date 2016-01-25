@@ -1,0 +1,166 @@
+html,body{
+ height:100%;
+}
+
+/*============================================
+
+
+============================================*/
+
+body {
+ font-family:Lato, Helvetica, Arial;
+ background: #8CC63F;
+ margin-bottom: 100px;
+   }
+div section{
+    box-sizing: border-box;
+}
+a{
+	 text-decoration:none;
+}
+
+img{
+	border-style:none;
+}
+
+input{
+	font-family:Helvetica, Arial;
+}
+
+header{
+    background: white;
+    overflow: hidden;
+    height:48px;
+}
+header .title{
+    float:left;
+    margin-top:15px;
+    font-weight : bold;
+    font-size : 18px;
+    color : #6EAF09;
+    margin-left:20px;
+}
+header .subtitle{
+    font-weight : normal;
+    margin-left:20px;
+}
+
+
+header .menu{
+    float:right;
+    margin-top: 16px;
+    margin-right: 20px;
+}
+
+.table_container{
+    width:880px;
+    margin:0 auto;
+}
+
+section.comparison_1{
+    width:420px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    background: white;
+    padding:2px;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.31);
+box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.31);
+}
+
+.topic h2{
+    text-align: center;
+    margin-top:30px;
+    font-weight: 300;
+    font-size:18px;
+    color:white;
+}
+.topic h3{
+    text-align: center;
+    margin-top:8px;
+    font-weight: 300;
+    font-size:18px;
+    color:white;
+ font-weight: bold;   
+ font-size:21px;
+     margin-bottom: 15px;
+}
+.comparison_1 .title{
+    background: #EF5526;    
+    color:white;
+    text-align: center;
+    height:90px;
+}
+
+.comparison_1 h2{
+    padding-top:19px;
+    font-size:20px;
+    font-weight:300;
+}
+
+
+.comparison_1 h3{
+    margin-top:9px;
+    font-size:18px;
+    font-weight: 700;
+}
+
+
+.comparison_1 .content{
+     
+    padding-top: 32px;
+    padding-bottom: 5px;
+}
+
+.comparison_1 table{
+    margin-left: 75px;
+    margin-bottom: 28px;    
+    
+}
+
+.comparison_1 tr{
+    
+    height:30px;
+    
+}
+.comparison_1 tr > td:nth-child(1){
+    width:70px;    
+    text-align:right;   
+    font-weight: 700;
+    font-size: 22px;
+}
+.comparison_1 tr > td:nth-child(2){
+    padding-left:7px;
+    
+}
+.comparison_1 tr > td:nth-child(3){
+    width:70px;
+    text-align:right;   
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+.comparison_1 tr > td:nth-child(4){
+     padding-left:7px;
+
+}
+
+.currency_a{
+    color: #FFB0B0;
+    font-size: 12px;
+    padding-left: 3px;
+
+}
+.currency_b{
+ color: #FFB0B0;
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+
+
+
+
+
